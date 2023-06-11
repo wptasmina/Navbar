@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-color: #24252A;
+}
+li, a, button{
+    color: #fff;
+    font-size: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.nav-item li{
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+.nav-item li a{
+    transition: all 0.3 ease 0s;
+}
+.nav-item li a:hover{
+    color: #ff6347;
+}
+button{
+    padding: 9px 25px;
+    background-color: #ff6347;
+    border-radius: 50px;
+    outline: none;
+    font-weight: 600;
+    transition: all 0.3 ease 0s;
+    cursor: pointer;
+}
+button:hover{
+    color: #ff6347;
+    background-color: #fff;
+}
